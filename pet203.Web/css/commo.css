@@ -1,0 +1,95 @@
+/*
+ * pet203通用样式表
+ */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	color: #666;
+	font-size: 14px;
+	background: #F8F8FF;	
+}
+
+ul,li{
+	list-style: none;
+}
+
+img,input{
+	border: none;
+}
+
+.content-box{
+	width: 100vw;
+	float: left;
+}
+
+a{
+	cursor: pointer;
+}
+
+/*
+ * 头部通用
+ */
+header{
+	width: 100vw;
+	position: fixed;
+	height: 50px;
+	/*颜色渐变*/
+	background: -webkit-linear-gradient(#F5F5F5 , #F2F2F2)/* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#F5F5F5 , #F2F2F2) /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#F5F5F5 , #F2F2F2); /* Firefox 3.6 - 15 */
+	background: linear-gradient(#F5F5F5 , #F2F2F2); /* 标准的语法 */
+	line-height: 49px;
+}
+
+header span.userInfo{
+	padding-left: 8vw;
+	padding-right: 20px;
+}
+
+header span.userInfo a{
+	padding: 0px 3px;
+	color: 	#DAA520;
+}
+
+header span.city a{
+	padding: 0px 3px;
+	color: 	#DAA520;
+	text-decoration: underline
+}
+
+header nav{
+	float: right;
+	margin-right: 8vw;
+}
+	
+header nav ul li{
+	display: inline-block;
+	float: left;
+	margin: 0 15px;
+}
+
+header nav ul li.active{
+	border-bottom: solid 1px#DAA520;
+	color: 	#DAA520;
+}
+
+
+/*
+ * footer尾部通用
+ */
+footer{
+	width: 100vw;
+	text-align: center;
+}
+
+/*
+ * 空div用于占位
+ */
+.div-normal{
+	width: 100vw;
+	height: 50px;
+}
+
